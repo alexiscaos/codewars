@@ -1,8 +1,9 @@
 //Probabilities for Sums in Rolling Cubic Dice
 //https://www.codewars.com/kata/probabilities-for-sums-in-rolling-cubic-dice
+//Prueba commit
 
 function rolldiceSumProb(total, matriz){
-    let dice = createDice(matriz);
+    // let dice = createDice(matriz);
     let resultados=[];
     for(let i =0;i<=dice.length;i++){
         let arrayActual = dice[i];
